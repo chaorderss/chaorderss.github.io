@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · cinema-uploader</title>
+<meta name="description" content="How cinema-uploader handles data received from Google and YouTube.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta">cinema-uploader · Effective October 5, 2026</p>
+
+  <h2>Overview</h2>
+  <p>cinema-uploader is a private tool run by a single individual (the “operator”) to publish the operator's own
+  videos to the operator's own YouTube channels. It uses YouTube API Services. By authorizing it you agree to the
+  <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and Google's handling of your data is
+  described in the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <h2>Information we access</h2>
+  <p>When a channel owner authorizes cinema-uploader through Google's consent screen, it receives OAuth tokens for
+  the scope <code>https://www.googleapis.com/auth/youtube.force-ssl</code>. With them it:</p>
+  <ul>
+    <li>reads the authorized channel's ID and title, to know which channel a token belongs to;</li>
+    <li>uploads videos and sets their title, description, tags, privacy status and thumbnail;</li>
+    <li>adds or updates subtitle tracks on those videos;</li>
+    <li>reads the upload and processing status of videos it uploaded, and deletes its own test uploads.</li>
+  </ul>
+  <p>It does not read comments, subscribers, watch history, email, contacts or any other Google data.</p>
+
+  <h2>How we use it</h2>
+  <p>Only to publish and manage the operator's own videos on the authorized channel. The data is not used for
+  advertising, profiling, analytics or any other purpose.</p>
+
+  <h2>Storage and security</h2>
+  <p>OAuth tokens and channel IDs are stored only on the operator's own computer, in files readable only by the
+  operator's user account. There is no server, database or cloud copy. Tokens are sent only to Google's APIs, over
+  HTTPS.</p>
+
+  <h2>Sharing</h2>
+  <p>We do not sell, rent or share any data with anyone. Data goes only to Google and YouTube, as needed to call
+  their APIs.</p>
+
+  <h2>Google API Services User Data Policy</h2>
+  <p>cinema-uploader's use and transfer of information received from Google APIs adheres to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+  including the Limited Use requirements.</p>
+
+  <h2>Retention and deletion</h2>
+  <p>Tokens are kept until access is revoked. You can revoke access at any time from
+  <a href="https://myaccount.google.com/permissions">your Google Account permissions</a> or the
+  <a href="https://security.google.com/settings/security/permissions">Google security settings page</a>; a revoked
+  token stops working immediately and the operator deletes the stored copy. Videos already published stay on YouTube
+  under YouTube's own policies until you delete them there.</p>
+
+  <h2>This website</h2>
+  <p>This is a static page hosted on GitHub Pages. It sets no cookies and runs no analytics or tracking. GitHub may
+  log visits as described in the
+  <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+
+  <h2>Changes</h2>
+  <p>Updates will be posted on this page with a new effective date.</p>
+
+  <h2>Contact</h2>
+  <p><a href="https://github.com/chaorderss/chaorderss.github.io/issues">Open an issue on GitHub</a>.</p>
+
+  <nav><a href="index.html">Home</a> · <a href="terms.html">Terms of Service</a></nav>
+</main>
+</body>
+</html>
